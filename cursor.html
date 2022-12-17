@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cursor {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 11000;
+            width: 10px;
+            height: 10px;
+            opacity: 1;
+            left: -5px;
+            top: -5px;
+            border-radius: 50%;
+            background-image:linear-gradient(red,yellow);
+            background-size: cover;
+            pointer-events: none;
+            -webkit-transition: -webkit-transform .1s;
+            transition: -webkit-transform .1s;
+            -o-transition: transform .1s;
+            transition: transform .1s;
+            transition: transform .1s, -webkit-transform .1s;
+        }
+        .clas{
+            background-image: linear-gradient(rgba(199, 77, 77, 0.505),rgba(255, 255, 103, 0.546),rgba(0, 128, 0, 0.489));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clas">
+        <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste aspernatur assumenda, voluptates maxime eligendi voluptate, molestiae totam nulla dolores eum saepe deleniti ullam? Aliquam voluptatum nesciunt dolorem velit porro? Ut?</a>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+        <div class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quod rem corrupti tempora iusto magni repellat culpa ipsam optio dignissimos facilis quos exercitationem eos, deserunt, a omnis architecto amet nesciunt.</div>
+    </div>
+    <div class="cursor"></div>
+    <script>
+        var clientX = -100;
+        var clientY = -100;
+        var innerCursor = document.querySelector(".cursor");
+
+        var initCursor = function initCursor() {
+            // add listener to track the current mouse position
+            document.addEventListener("mousemove", function (e) {
+                clientX = e.clientX;
+                clientY = e.clientY;
+            });
+
+            // transform the innerCursor to the current mouse position
+            // use requestAnimationFrame() for smooth performance
+            var render = function render() {
+                innerCursor.style.transform = 'translate(' + clientX + 'px, ' + clientY + 'px)';
+                // if you are already using TweenMax in your project, you might as well
+                // use TweenMax.set() instead
+                // TweenMax.set(innerCursor, {
+                //   x: clientX,
+                //   y: clientY
+                // });
+
+                requestAnimationFrame(render);
+            };
+            requestAnimationFrame(render);
+        };
+
+        initCursor();
+    </script>
+</body>
+
+</html>
