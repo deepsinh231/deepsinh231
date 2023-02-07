@@ -1,3 +1,6 @@
+// doc-loader
+$('.doc-loader').fadeOut('fast');
+
 // navToggler
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", navToggle);
@@ -116,13 +119,13 @@ window.addEventListener("scroll", opacity1);
 window.addEventListener("load", opacity1);
 
 
-// typing text animation script 
-$(document).ready(function () {
-   // typing text animation script 
-   var typed = new Typed(".typing", {
-      strings: ["Restaurant ", "Hotel"],
-      typeSpeed: 100,
-      backSpeed: 60,
-      loop: true
-   });
-});
+// // typing text animation script 
+// $(document).ready(function () {
+//    // typing text animation script 
+//    var typed = new Typed(".typing", {
+//       strings: ["Restaurant ", "Hotel"],
+//       typeSpeed: 100,
+//       backSpeed: 60,
+//       loop: true
+//    });
+// });
