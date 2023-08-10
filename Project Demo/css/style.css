@@ -1,11 +1,22 @@
 :root {
 	--color-1: #2f3240;
+	--logo-1: #ffffff;
+	--nab-activ-1: #f3a93d;
 }
 
+/* Dark Scren */
+.dark-light {
+	--color-1: #fdc93a;
+	--logo-1: #1e53e7;
+	--nab-activ-1: #ff2121;
+}
+
+/* Dark Scren */
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	transition: all 0.s;
 }
 
 ul {
@@ -17,14 +28,15 @@ a {
 }
 
 .container {
-	max-width: 1170px;
-	margin: auto;
+	width: min(100% - 20px, 1200px);
+	margin-inline: auto;
 }
 
 .row {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 
 .align-items-center {
 	align-items: center;
@@ -35,27 +47,24 @@ a {
 }
 
 /* loader */
-.doc-loader 
-{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 99999;	
-    background-color: #fff;
+.doc-loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background-color: #fff;
 }
 
-.doc-loader td 
-{       
-    text-align: center;
-    vertical-align: middle;
+.doc-loader td {
+	text-align: center;
+	vertical-align: middle;
 }
 
-.doc-loader img
-{
-    width: 160px;
-    height: 160px;        
+.doc-loader img {
+	width: 160px;
+	height: 160px;
 }
 
 
@@ -64,16 +73,18 @@ a {
 	background-color: var(--color-1);
 	padding: 12px 0;
 	line-height: 1.5;
+	z-index: 999;
 }
 
 .header .logo,
 .header .nav {
 	padding: 0 15px;
+	text-align: center;
 }
 
 .header .logo a {
 	font-size: 30px;
-	color: #ffffff;
+	color: var(--logo-1);
 	text-transform: capitalize;
 }
 
@@ -86,20 +97,20 @@ a {
 	display: block;
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: var(--logo-1);
 	padding: 10px 0;
 	transition: all 0.5s ease;
 }
 
 .header .nav ul li a.active,
 .header .nav ul li a:hover {
-	color: #f3a93d;
+	color: var(--nab-activ-1);
 }
 
 .nav-toggler {
 	height: 34px;
 	width: 44px;
-	background-color: #ffffff;
+	background-color: var(--logo-1);
 	border-radius: 4px;
 	cursor: pointer;
 	border: none;
@@ -173,6 +184,57 @@ a {
 }
 
 /* sticky */
+
+/* Hover Card */
+.card-hover {
+	transition: 0.5s;
+}
+
+/* Hover Card */
+
+/* Progresh bar */
+.toplinght {
+	background-image: linear-gradient(to left, rgb(246, 94, 94), rgb(195, 195, 101), rgb(79, 79, 79));
+	border-radius: 20px;
+	/* width:5px; */
+	bottom: 0;
+	position: fixed;
+	height: 5px;
+}
+
+/* Progresh bar*/
+
+/* Cursor */
+.cursor {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 11000;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+	left: -5px;
+	top: -5px;
+	border-radius: 50%;
+	background-image: linear-gradient(red, yellow);
+	background-size: cover;
+	pointer-events: none;
+	-webkit-transition: -webkit-transform .1s;
+	transition: -webkit-transform .1s;
+	-o-transition: transform .1s;
+	transition: transform .1s;
+	transition: transform .1s, -webkit-transform .1s;
+}
+
+/* Cursor */
+
+/* dark mode */
+.togal-dark {
+	position: fixed;
+	top: 200px;
+}
+
+/* dark mode */
 
 /* data-reveal */
 [data-reveal] {
@@ -419,29 +481,7 @@ a {
 
 /* data-reveal */
 
-/* DELET */
-.section-1 {
-	width: 100%;
-	height: 100vh;
-	background-color: #2f324412;
-	padding: 100px;
-}
 
-.section-2 {
-	width: 100%;
-	height: 100vh;
-	background-color: #2f3240;
-	padding: 100px;
-}
-
-.section-3 {
-	width: 100%;
-	height: 100vh;
-	background-color: #6f3240;
-	padding: 100px;
-}
-
-/* DELET */
 @media(max-width:991px) {
 	.nav-toggler {
 		display: block;
@@ -471,3 +511,60 @@ a {
 		margin: 0;
 	}
 }
+
+/* DELET */
+.section-1 {
+	width: 100%;
+	height: 100vh;
+	background-color: #2f324412;
+	color: var(--nab-activ-1);
+	padding: 100px;
+}
+
+.section-2 {
+	width: 100%;
+	color: var(--logo-1);
+	height: 100vh;
+	background-color: #2f3240;
+	padding: 100px;
+}
+
+.section-3 {
+	color: var(--logo-1);
+	width: 100%;
+	height: 100vh;
+	background-color: #6f3240;
+	padding: 100px;
+}
+
+
+/* DELET */
+
+/* IMP */
+.imp-flex {
+	flex: 1 1 25em;
+}
+
+.html {
+	scroll-snap-type: y mandatory;
+}
+
+.img-mix-blend-mode {
+	mix-blend-mode: multiply;
+}
+
+.photos img {
+	width: 15%;
+	aspect-ratio: 3/2;
+	object-fit: contain;
+	mix-blend-mode: color-burn;
+}
+
+.imp-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	margin: 20px 10px;
+}
+
+/* IMP */
