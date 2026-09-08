@@ -102,7 +102,7 @@ const deepsinh = {
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=deepsinh231&theme=tokyonight&hide_border=true" alt="streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepsinh231&theme=tokyonight&hide_border=true" alt="streak" />
 </p>
 
 <p align="center">
