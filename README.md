@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1D4ED8,100:0F172A&amp;height=200&amp;section=header&amp;text=Deepsinh%20Solanki&amp;fontSize=50&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Senior%20Full%20Stack%20Developer&amp;descAlignY=58&amp;descSize=18" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1D4ED8,100:0F172A&amp;height=200&amp;section=header&amp;text=Deepsinh%20Solanki&amp;fontSize=50&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Full%20Stack%20Developer&amp;descAlignY=58&amp;descSize=18" alt="banner" />
 </p>
 
 <!-- Typing animation -->
@@ -27,7 +27,7 @@
 
 ```javascript
 const deepsinh = {
-    role: "Senior Full Stack Developer",
+    role: "Full Stack Developer",
     location: "Ahmedabad, Gujarat, India 🇮🇳",
     experience: "3+ years",
     stack: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
