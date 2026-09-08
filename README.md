@@ -97,8 +97,8 @@ const deepsinh = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=deepsinh231&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" alt="stats" />
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=deepsinh231&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="top langs" />
+  <img width="49%" src="https://github-readme-stats-one-gules.vercel.app/api?username=deepsinh231&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" alt="stats" />
+  <img width="49%" src="https://github-readme-stats-one-gules.vercel.app/api/top-langs/?username=deepsinh231&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="top langs" />
 </p>
 
 <p align="center">
