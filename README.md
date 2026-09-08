@@ -1,24 +1,24 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,100:0F172A&height=200&section=header&text=Deepsinh%20Solanki&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Full%20Stack%20Developer%20%7C%20React.js%20%26%20Node.js&descAlignY=58&descSize=18" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1D4ED8,100:0F172A&amp;height=200&amp;section=header&amp;text=Deepsinh%20Solanki&amp;fontSize=50&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Senior%20Full%20Stack%20Developer&amp;descAlignY=58&amp;descSize=18" alt="banner" />
 </p>
 
 <!-- Typing animation -->
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=1D4ED8&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;React.js+%26+Node.js+Specialist;Building+Scalable+Web+Apps;Turning+Ideas+into+Code" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=24&amp;pause=1000&amp;color=1D4ED8&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Full+Stack+Developer;React.js+%26+Node.js+Specialist;Building+Scalable+Web+Apps;Turning+Ideas+into+Code" alt="Typing SVG" /></a>
 </p>
 
 <!-- Profile views + socials -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=deepsinh231&label=Profile%20Views&color=1D4ED8&style=for-the-badge" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/deepsinh231?label=Followers&style=for-the-badge&color=0F172A&logo=github" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=deepsinh231&amp;label=Profile%20Views&amp;color=1D4ED8&amp;style=for-the-badge" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/deepsinh231?label=Followers&amp;style=for-the-badge&amp;color=0F172A&amp;logo=github" alt="followers" />
 </p>
 
 <p align="center">
-  <a href="https://deepsinh231.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1D4ED8?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/deepsinh231"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/deepsinh231"><img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:deep.s66330@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://deepsinh231.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1D4ED8?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/deepsinh231"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/deepsinh231"><img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:deep.s66330@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
 </p>
 
 ---
@@ -97,16 +97,12 @@ const deepsinh = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=deepsinh231&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepsinh231&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=deepsinh231&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" alt="stats" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=deepsinh231&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="top langs" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepsinh231&theme=tokyonight&hide_border=true" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=deepsinh231&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="trophies" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepsinh231&amp;theme=tokyonight&amp;hide_border=true" alt="streak" />
 </p>
 
 ---
@@ -120,5 +116,5 @@ const deepsinh = {
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1D4ED8&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=ffffff&animation=twinkling" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F172A,100:1D4ED8&amp;height=120&amp;section=footer&amp;text=Thanks%20for%20visiting!&amp;fontSize=22&amp;fontColor=ffffff&amp;animation=twinkling" alt="footer" />
 </p>
